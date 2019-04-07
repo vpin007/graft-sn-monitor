@@ -97,7 +97,7 @@ Partial Class frmSupernode2
         Me.NUDPort.Size = New System.Drawing.Size(57, 20)
         Me.NUDPort.TabIndex = 1
         Me.NUDPort.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
-        Me.NUDPort.Value = New Decimal(New Integer() {28690, 0, 0, 0})
+        Me.NUDPort.Value = New Decimal(New Integer() {18690, 0, 0, 0})
         '
         'txtPubID
         '
