@@ -1,8 +1,8 @@
 # graft-sn-monitor
 
 I created this program to help myself and a few friends keep an eye on our supernodes.
-I'm not a "dev", just a weekend warrrior, as you can tell, that's why it's in VB.NET.   
-
+I'm not a "dev", just a weekend warrior, as you can tell, that's why it's in VB.NET.   
+I'll add code comments soon™.
 
 Basically it's just an interface for querying http://Your_Server_IP:Supernode_Port/debug/supernode_list/1 supdernode status and  http://Your_Server_IP:Supernode_port/dapi/v2.0/cryptonode/getwalletaddress
 for stake info, which helps with the creation of the stake_transfer command.
@@ -41,7 +41,7 @@ To get stake information, click the Stake button in the upper left corner.
 ![2](images/stake.PNG)
 If you have multiple supernodes in the list, click the desired one, verify IP address and port are correct then click "Get Stake Info".
 
-You can copy the Wallet, ID and Signature out to create your own command or select the tier\enter stake amount, select number of days to stake or select the exact number of blocks so that it expires at a convenent day\time for you, then click "Create Stake Command".
+You can copy the Wallet, ID and Signature out to create your own command or select the tier\enter stake amount, select number of days to stake or select the exact number of blocks so that it expires at a convenient day\time for you, then click "Create Stake Command".
 
 Notice, the "Approx expiration time" is an approximation based on 2 minute block time, it also could change depending on how long your transaction sits int the transaction pool.
 
