@@ -1,6 +1,8 @@
 # graft-sn-monitor
 
-I created this program to help me and a few friends keep an eye on my supernodes.
+I created this program to help myself and a few friends keep an eye on our supernodes.
+I'm not a "dev", just a weekend warrrior, as you can tell, that's why it's in VB.NET.   
+
 
 Basically it's just an interface for querying http://Your_Server_IP:Supernode_Port/debug/supernode_list/1 supdernode status and  http://Your_Server_IP:Supernode_port/dapi/v2.0/cryptonode/getwalletaddress
 for stake info, which helps with the creation of the stake_transfer command.
